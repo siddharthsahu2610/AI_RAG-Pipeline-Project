@@ -22,6 +22,7 @@ System Design
 4️⃣ Generation (Groq API) - Construct prompt with: Retrieved context, User query, Groq LLM generates grounded answer
 
 
+
 🎯 Features
 
 1. Document-based Q&A
