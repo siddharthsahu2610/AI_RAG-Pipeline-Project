@@ -20,3 +20,16 @@ System Design
 3️⃣ Retrieval - Convert user query into embedding, Retrieve top-k similar chunks, Pass chunks to LLM as context
 
 4️⃣ Generation (Groq API) - Construct prompt with: Retrieved context, User query, Groq LLM generates grounded answer
+
+
+🎯 Features
+
+1. Document-based Q&A
+
+2. Automatic summarization
+
+3. MCQ and important questions generation
+
+4. Retrieval transparency (shows source chunks)
+
+5. Fast response via Groq API
