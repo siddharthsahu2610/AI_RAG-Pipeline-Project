@@ -12,7 +12,11 @@ This project implements a production-style RAG pipeline that allows users to:
 --> View retrieved context chunks
 
 System Design
+
 1️⃣ Document Processing - Extract text from PDF, Split into manageable chunks, Convert chunks into embeddings
+
 2️⃣ Vector Storage - Store embeddings in FAISS index, Enables fast similarity search
+
 3️⃣ Retrieval - Convert user query into embedding, Retrieve top-k similar chunks, Pass chunks to LLM as context
+
 4️⃣ Generation (Groq API) - Construct prompt with: Retrieved context, User query, Groq LLM generates grounded answer
